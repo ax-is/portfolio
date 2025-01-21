@@ -57,19 +57,6 @@ const Contact = () => {
                 className='bg-tertiary py-6 px-8 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
             </label>
-
-            <label className='flex flex-col flex-grow'>
-              <span className='text-white font-medium mb-4'>LinkedIn</span>
-              <a
-                href={form.linkedin}
-                target='_blank'
-                rel='noopener noreferrer'
-                className='bg-tertiary py-6 px-8 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-              >
-                {form.linkedin}
-              </a>
-            </label>
-
             <label className='flex flex-col flex-grow'>
               <span className='text-white font-medium mb-4'>Github</span>
               <a
@@ -79,6 +66,17 @@ const Contact = () => {
                 className='bg-tertiary py-6 px-8 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               >
                 {form.github}
+              </a>
+            </label>
+            <label className='flex flex-col flex-grow'>
+              <span className='text-white font-medium mb-4'>LinkedIn</span>
+              <a
+                href={form.linkedin}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='bg-tertiary py-6 px-8 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              >
+                {form.linkedin}
               </a>
             </label>
           </div>
