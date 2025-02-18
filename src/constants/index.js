@@ -12,6 +12,7 @@ import {
   vf,
   chatbot,
   stock_trend,
+  transcript,
   python,
   fastapi,
   cohere,
@@ -155,6 +156,29 @@ const projects = [
     image: chatbot,
     source_code_link: "https://github.com/ax-is/simple-chatbot",
   },
+
+  {
+    name: "Transcript Analysis API",
+    description: "Developed a FastAPI-based application that utilizes Gemini's generative AI to analyze chatbot transcripts. The API allows users to define custom headers and descriptions for tailored analysis, processing input transcripts to generate AI-powered insights such as customer sentiment and agent behavior.",
+    tags: [
+      {
+        name: "Python",
+        color: "green-text-gradient"
+      },
+      {
+        name: "FastAPI",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "RestAPI",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: transcript,
+    source_code_link: "https://github.com/ax-is/transcirpt-analyze"
+  },
+  
+
   {
     name: "Stock Trend Analysis",
     description: "Developed a tool to analyze stock trends by fetching data from Yahoo Finance, calculating statistics, and visualizing closing prices. Utilized pandas for data manipulation and matplotlib for plotting stock performance over custom date ranges.",

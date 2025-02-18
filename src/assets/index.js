@@ -24,6 +24,7 @@ import vf from "./company/vf.png";
 
 import chatbot from "./chatbot.png";
 import stock_trend from "./stock_trend.png";
+import transcript from "./transcript.png";
 
 export {
   logo,
@@ -43,6 +44,7 @@ export {
   vf,
   chatbot,
   stock_trend,
+  transcript,
   python,
   fastapi,
   cohere,
